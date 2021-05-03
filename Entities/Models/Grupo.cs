@@ -7,6 +7,7 @@ namespace Entities.Models
 {
     public class Grupo
     {
+
         public int GrupoId { get; set; }
         [Required]
         public String Nome { get; set; }
